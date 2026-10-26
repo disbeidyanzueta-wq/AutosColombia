@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos Colombia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Parqueadero Autos Colombia</h1>
+
+        <h2>Registro de Entrada de Vehículos</h2>
+
+        <form id="formulario">
+
+            <label>Placa</label>
+            <input type="text" id="placa" required>
+
+            <label>Marca</label>
+            <input type="text" id="marca" required>
+
+            <label>Color</label>
+            <input type="text" id="color" required>
+
+            <label>Celda</label>
+
+            <select id="celda">
+                <option>Celda 1</option>
+                <option>Celda 2</option>
+                <option>Celda 3</option>
+                <option>Celda 4</option>
+            </select>
+
+            <button type="submit">
+                Registrar Entrada
+            </button>
+
+        </form>
+
+        <h2>Vehículos Registrados</h2>
+
+        <table id="tabla">
+
+            <thead>
+                <tr>
+                    <th>Placa</th>
+                    <th>Marca</th>
+                    <th>Color</th>
+                    <th>Celda</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
