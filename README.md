@@ -28,5 +28,4 @@ AutosColombia/
 
 ## Autor
 
-Disbeidy Anzueta Góngora
-Daniela Anzueta Gongora
+Disbeidy Anzueta Góngora & Daniela Anzueta Gongora
