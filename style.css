@@ -4,7 +4,7 @@ body {
 }
 
 .contenedor {
-    width: 80%;
+    width: 85%;
     margin: auto;
     background: white;
     padding: 20px;
@@ -24,6 +24,7 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 label {
@@ -52,8 +53,8 @@ button:hover {
 
 table {
     width: 100%;
-    margin-top: 20px;
     border-collapse: collapse;
+    margin-bottom: 25px;
 }
 
 th,
@@ -66,4 +67,9 @@ td {
 th {
     background-color: #003366;
     color: white;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
