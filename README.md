@@ -35,6 +35,7 @@ Consultar historial de celdas
 - HTML
 - CSS
 - JavaScript
+- Git
 - GitHub
 
 ## Estructura del proyecto
